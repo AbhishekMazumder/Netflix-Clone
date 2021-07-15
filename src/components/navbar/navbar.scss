@@ -1,17 +1,17 @@
 .navbar {
 	color: white;
 	font-size: 14px;
-	height: 80px;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 99;
-	background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.6) 50%);
+	background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 90%);
 	&.scrolled {
 		background-color: var(--main-color);
 	}
 	.container {
+		height: 70px;
 		padding: 0 50px;
 		display: flex;
 		align-items: center;
@@ -20,7 +20,7 @@
 			display: flex;
 			align-items: center;
 			img {
-				height: 80px;
+				height: 90px;
 				margin-right: 40px;
 			}
 			span {
