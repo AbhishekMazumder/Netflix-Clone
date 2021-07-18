@@ -10,15 +10,15 @@ const Featured = ({ type }) => {
 			{type && (
 				<div className="category">
 					<span>{type === 'movie' ? 'Movies' : 'Series'}</span>
-          <select name="genre" id="genre">
-            <option>Genre</option>
-            <option>Genre</option>
-            <option>Genre</option>
-            <option>Genre</option>
-          </select>
+					<select name="genre" id="genre">
+						<option>Genre</option>
+						<option>Genre</option>
+						<option>Genre</option>
+						<option>Genre</option>
+					</select>
 				</div>
 			)}
-			<img src="" alt="" />
+			<img src="https://i.ytimg.com/vi/cKYibT5J87w/maxresdefault.jpg" alt="" />
 			<div className="info">
 				<img src="" alt="" />
 				<span className="desc">
